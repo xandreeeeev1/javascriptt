@@ -1,0 +1,93 @@
+/* header */
+header {
+    background-color: rgb(140, 190, 255);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+/*figcaption*/
+figcaption {
+    display: block;
+    font-style: oblique;
+}
+/* navigation*/
+nav ul {
+    display: flexbox;
+    list-style: none;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+nav a {
+    border-radius: 15px;
+    padding: 1em;
+    color: rgb(4, 0, 0);
+}
+
+/* main section */
+.container {
+    background: #5eb4ff;   
+    box-shadow: 2px 2px 5px;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 20px auto;
+}
+/*figure figcaption */
+figure {
+    
+    padding: 0.5em 1em;
+}
+
+figure figcaption {
+    font-size: 80%;
+    text-align: right;
+}
+
+    footer {
+        background-color: rgb(129, 162, 255);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    }
+
+    nav a:hover {
+        background-color: rgb(255, 255, 255);
+    }
+    main h2 {
+        color:rgb(83, 83, 83)
+    }
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  /* Morning style */
+  .morning {
+    color: #FFA726; /* Orange */
+    background-color: #FFF8E1; /* Light yellow */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  /* Afternoon style */
+  .afternoon {
+    color: #1976D2; /* Blue */
+    background-color: #E3F2FD; /* Light blue */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  /* Evening style */
+  .evening {
+    color: #FFFFFF; /* White */
+    background-color: #3E2723; /* Dark brown */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
